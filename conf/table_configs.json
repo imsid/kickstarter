@@ -1,0 +1,21 @@
+{
+  "tables": {
+    "db_name.table_name": {
+      "dependencies": [
+        {
+          "name": "db_name.table_name",
+          "partition": "ds"
+        }
+      ]
+    },
+    "db_name.table_name":{
+      "dependencies": [
+        {
+          "name": "db_name.table_name",
+          "partition": "ds",
+          "location": "/core_data/fct_bookings"
+        }
+      ]
+    }
+  }
+}
